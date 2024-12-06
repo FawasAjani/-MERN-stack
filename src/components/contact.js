@@ -93,7 +93,7 @@ const Contact = () => {
                             <FontAwesomeIcon icon={faPhone} className="fontawesome-icons" aria-hidden="true" />
                             <span className="contact-number">(032) 987 6543</span>
                             <FontAwesomeIcon icon={faEnvelope} className="fontawesome-icons" aria-hidden="true" />
-                            <span className="contact-email"><a href="mailto:Fawas Beans&Brews@example.com">Fawas Beans&Brews@example.com</a></span>
+                            <span className="contact-email"><a href="mailto:Fawas Beans&Brews@example.com">Fawas Beans&Brews@yahoo.com</a></span>
                         </div>
                     </div>
                     <br />

@@ -2,7 +2,7 @@
 //FawasAjani-G00413222
 import React from 'react';
 import '../App.css';
-import heroImage from '../images/fawas-image.jpg'
+import fawasImage from '../images/fawas-image.jpg'
 import coffeeBeansImage from '../images/beans.jpg';
 import coffeeShopImage1 from '../images/coffee1.jpg';
 import coffeeShopImage2 from '../images/coffee2.jpg';
@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 function Content() {
     return (
         <div>
-            <section style={{ backgroundImage: `url(${heroImage})` }} className="hero-image container-fluid">
+            <section style={{ backgroundImage: `url(${fawasImage})` }} className="fawas-image container-fluid">
                 <div className="container">
                     <div className="row">
                         <div className="hero-text col-xs-12 col-sm-6 col-md-6 col-lg-4 offset-lg-1">
@@ -23,7 +23,7 @@ function Content() {
                             {/* Coffee database holder */}
                             <div id="coffee-to-go-nav-link"></div>
                             <br />
-                            <h2 id="hero-h2">Your Gateway to Coffee Excellence</h2>
+                           
                             <br />
                             {/* button for coffee */}
                             <Link to="/read" className="btn btn-light" id="hero-button">
@@ -133,12 +133,12 @@ function Content() {
                             </div>
                         </article>
                         <div className="col-6 col-sm-3 about-column">
-                            <img src={coffeeShopImage1} className="img-fluid" alt="Waiter holding coffee in hands" />
-                            <img src={coffeeShopImage2} className="img-fluid" alt="Coffee and pastries on wooden table" />
+                            <img src={coffeeShopImage1} className="img-fluid" alt="Waiter/waitress holding the brew" />
+                            <img src={coffeeShopImage2} className="img-fluid" alt="Scon,coffee,creame" />
                         </div>
                         <div className="col-6 col-sm-3 about-column">
-                            <img src={coffeeShopImage3} className="img-fluid" alt="Three hands holding coffee cups together" />
-                            <img src={coffeeShopImage4} className="img-fluid" alt="Coffee machine" />
+                            <img src={coffeeShopImage3} className="img-fluid" alt="Friends holding a coffee mug" />
+                            <img src={coffeeShopImage4} className="img-fluid" alt="Expensive coffee machine" />
                         </div>
                     </div>
                 </div>
