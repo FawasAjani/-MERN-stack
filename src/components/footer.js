@@ -16,7 +16,7 @@ function Footer() {
                         <br />
                         <span className="fa fa-envelope fontawesome-icons" aria-hidden="true"></span>
                         <span className="contact-email" id="footer-email">
-                            <a href="mailto:support@example.com">Fawas Beans&Brews@example.com</a>
+                            <a href="mailto:support@yahoo.com">Fawas Beans&Brews@yahoo.com</a>
                             <br />
                         </span>
                         <span className="fa fa-map-marker fontawesome-icons"></span>

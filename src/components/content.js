@@ -21,9 +21,7 @@ function Content() {
                             <h1 id="hero-h1">Fawas Beans&Brews</h1>
                             {/* Coffee database holder */}
                             <div id="coffee-to-go-nav-link"></div>
-                            <br />
-                            <h2 id="hero-h2">Your Gateway to Coffee Excellence</h2>
-                            <br />
+                            
                             {/* button for coffee */}
                             <Link to="/read" className="btn btn-light" id="hero-button">
                                 Check Our Coffee
@@ -57,7 +55,7 @@ function Content() {
                             <div className="col-6 col-lg-3 four-icons zoom">
                                 <span className="fa fa-coffee my-icon" aria-hidden="true"></span>
                                 <p>
-                                    <strong>Sustainably Sourced<br />Coffee Beans</strong>
+                                    <strong>Eco-friendly <br />Coffee Beans</strong> {/*Eco-friendly beans */}
                                 </p>
                             </div>
                             <div className="col-6 col-lg-3 four-icons zoom">
@@ -69,7 +67,7 @@ function Content() {
                             <div className="col-6 col-lg-3 four-icons zoom">
                                 <span className="fa-solid fa-wifi my-icon" aria-hidden="true"></span>
                                 <p>
-                                    <strong>WiFi(5g) and<br />Workspaces</strong>
+                                    <strong>WiFi(5g) and<br />Workspaces</strong> {/*Wifi and workspaces */}
                                 </p>
                             </div>
                             <div className="col-6 col-lg-3 four-icons zoom">
@@ -77,7 +75,7 @@ function Content() {
                                 {/* Bean Points nav link */}
                                 <div id="bean-points-nav-link"></div>
                                 <p>
-                                    <strong>Community<br />Events</strong>
+                                    <strong>Public<br />Events</strong> {/*Public Events  */}
                                 </p>
                             </div>
                         </div>

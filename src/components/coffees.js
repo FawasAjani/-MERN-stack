@@ -2,7 +2,7 @@
 //FawasAjani-G00413222
 import React from 'react';
 import '../App.css';
-import fawasImage from '../images/fawas-image.jpg'//created the image using ai 
+import fawasImage from '../images/fawas-image.jpg'//created the image using ai canva
 import coffeeBeansImage from '../images/beans.jpg';//coffeBeanImage
 import coffeeShopImage1 from '../images/coffee1.jpg';
 import coffeeShopImage2 from '../images/coffee2.jpg';
@@ -19,14 +19,12 @@ function Content() {
                 <div className="container">
                     <div className="row">
                         <div className="hero-text col-xs-12 col-sm-6 col-md-6 col-lg-4 offset-lg-1">
-                            <h1 id="hero-h1">Fawas Beans&Brews</h1>
+                            <h1 id="fawas-h1">Fawas Beans&Brews</h1>
                             {/* Coffee database holder */}
                             <div id="coffee-to-go-nav-link"></div>
-                            <br />
-                           
-                            <br />
+                            
                             {/* button for coffee */}
-                            <Link to="/read" className="btn btn-light" id="hero-button">
+                            <Link to="/read" className="btn btn-light" id="fawas-button">
                                 Check Our Coffee
                             </Link>
                         </div>
@@ -59,7 +57,7 @@ function Content() {
                             <div className="col-6 col-lg-3 four-icons zoom">
                                 <span className="fa fa-coffee my-icon" aria-hidden="true"></span>
                                 <p>
-                                    <strong>Sustainably Sourced<br />Coffee Beans</strong>
+                                    <strong>Eco-friendly<br />Coffee Beans</strong>
                                 </p>
                             </div>
                             <div className="col-6 col-lg-3 four-icons zoom">
@@ -76,10 +74,10 @@ function Content() {
                             </div>
                             <div className="col-6 col-lg-3 four-icons zoom">
                                 <span className="fa fa-map-marker my-icon" aria-hidden="true"></span>
-                                {/* Bean Points nav link */}
+                                {/* Ajani Bean Loyalty Program nav link */}
                                 <div id="bean-points-nav-link"></div>
                                 <p>
-                                    <strong>Community<br />Events</strong>
+                                    <strong>Public<br />Events</strong>
                                 </p>
                             </div>
                         </div>
@@ -134,7 +132,7 @@ function Content() {
                         </article>
                         <div className="col-6 col-sm-3 about-column">
                             <img src={coffeeShopImage1} className="img-fluid" alt="Waiter/waitress holding the brew" />
-                            <img src={coffeeShopImage2} className="img-fluid" alt="Scon,coffee,creame" />
+                            <img src={coffeeShopImage2} className="img-fluid" alt="Scone, coffee, cream" />
                         </div>
                         <div className="col-6 col-sm-3 about-column">
                             <img src={coffeeShopImage3} className="img-fluid" alt="Friends holding a coffee mug" />

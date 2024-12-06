@@ -37,8 +37,8 @@ function CoffeeItems(props) {
                                     {description} {/* Displaying the description of the coffee */}
                                 </Card.Text>
                                 <footer className="blockquote-footer">
-                                    Origin: {origin} <br /> {/* Displaying the origin of the coffee */}
-                                    Roast: {roast} {/* Displaying the colour of coffe black,white or brown */}
+                                    Origin: {origin} <br /> {/* Displaying the destination of the coffee */}
+                                    Roast: {roast} {/* Displaying the colour of coffee black,white or brown */}
                                 </footer>
                             </Card.Body>
                             <Card.Footer>

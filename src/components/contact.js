@@ -1,8 +1,8 @@
 //FawasAjani-G00413222
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';// Importing FontAwesomeIcon component
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';// Importing the phone and envelope icons
+//I got the  font commads from https://docs.fontawesome.com/v5/web/use-with/react
 const Contact = () => {
     // State for managing form data
     const [formData, setFormData] = useState({

@@ -23,7 +23,7 @@ function Create() {
             imageUrl: imageUrl,
             description: description,
             origin: origin,
-            roast: roast
+            roast: roast// colour of coffee
         };
         
         // Function to reset the form fields back to initial state
