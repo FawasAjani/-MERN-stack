@@ -1,8 +1,8 @@
 //FawasAjani-G00413222
-import Card from 'react-bootstrap/Card';
-import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
-import axios from 'axios';
+import Card from 'react-bootstrap/Card';//import react-bootstrap
+import { Link } from 'react-router-dom';//import react-router
+import Button from 'react-bootstrap/Button';//import react-buttonstrap
+import axios from 'axios';//import axios
 
 function CoffeeItems(props) {
     // Extracting individual properties from the myCoffee object passed as props for easier access
@@ -38,7 +38,7 @@ function CoffeeItems(props) {
                                 </Card.Text>
                                 <footer className="blockquote-footer">
                                     Origin: {origin} <br /> {/* Displaying the origin of the coffee */}
-                                    Roast: {roast} {/* Displaying the roast level of the coffee */}
+                                    Roast: {roast} {/* Displaying the colour of coffe black,white or brown */}
                                 </footer>
                             </Card.Body>
                             <Card.Footer>

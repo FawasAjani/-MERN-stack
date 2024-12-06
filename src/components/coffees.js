@@ -2,14 +2,14 @@
 //FawasAjani-G00413222
 import React from 'react';
 import '../App.css';
-import fawasImage from '../images/fawas-image.jpg'
-import coffeeBeansImage from '../images/beans.jpg';
+import fawasImage from '../images/fawas-image.jpg'//created the image using ai 
+import coffeeBeansImage from '../images/beans.jpg';//coffeBeanImage
 import coffeeShopImage1 from '../images/coffee1.jpg';
 import coffeeShopImage2 from '../images/coffee2.jpg';
 import coffeeShopImage3 from '../images/coffee3.jpg';
 import coffeeShopImage4 from '../images/coffee4.jpg';
-import columbiaFlag from '../images/columbia-flag.jpg'; // Ensure this image is in your 'images' folder
-import ethiopiaFlag from '../images/ethiopia-flag.jpg'; // Ensure this image is in your 'images' folder
+import columbiaFlag from '../images/columbia-flag.jpg'; //Columbia flag
+import ethiopiaFlag from '../images/ethiopia-flag.jpg'; //Ethopia flag
 import { Link } from 'react-router-dom';
 
 function Content() {
@@ -147,4 +147,4 @@ function Content() {
     );
 }
 
-export default Content;
+export default Content;//export default
