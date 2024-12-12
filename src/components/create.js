@@ -42,7 +42,7 @@ function Create() {
             setMessage('Coffee successfully added!'); // Set a success message
         })
         .catch((error) => {
-            setMessage('An error occurred: ' + error.message); // Set an error message
+            setMessage('An error occurred: ' + error.message); // error message
         });
     }
 
@@ -51,7 +51,7 @@ function Create() {
         <section className="custom-section form-section">
             <div className="container">
                 <div className="row">
-                    <h2>Add Your Favourite Coffee</h2>
+                    <h2>Favourite Brew</h2>{/* Favouirte Brew*/}
                     <form onSubmit={handleSubmit}>
                         {/* Form fields for adding coffee details */}
                         <div className="row contact-form-text">

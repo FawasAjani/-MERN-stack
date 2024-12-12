@@ -75,7 +75,7 @@ app.post('/api/coffee', (req, res) => {
 
 // Route to send a welcome message
 app.get('/', (req, res) => {
-    res.send('Welcome to the Coffee API!');
+    res.send('Welcome to the Coffee API!');//Welcome to the coffe Api,Data-rep
 });
 
 // Route to get all coffee data
